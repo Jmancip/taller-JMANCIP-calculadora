@@ -18,6 +18,8 @@ public class Main {
 
         // Objeto
         Operaciones operaciones = new Operaciones(numeroUno,numeroDos);
+
+        // Imprimir resultados
         System.out.println("+-----------------------------------------------------------------------+");
         System.out.println("+       --El resultado de la suma es : " + operaciones.suma() + "                               +");
         System.out.println("+       --El resultado de la resta es : " + operaciones.resta() + "                              +");
